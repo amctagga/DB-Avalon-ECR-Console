@@ -8,6 +8,80 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.20833333333333334,
+            "y": 0.14984709480122324,
+            "uniqueID": 476325,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9869791666666666,
+                    "y": 0.5,
+                    "uniqueID": 708354,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.3014322916666667,
+            "y": 0.37003058103975534,
+            "uniqueID": 163386,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.23177083333333334,
+            "y": 0.47094801223241584,
+            "uniqueID": 204378,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.3020833333333333,
+            "y": 0.6513761467889908,
+            "uniqueID": 295449,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 48
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 24
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9869791666666666,
@@ -19,7 +93,7 @@
     "allConnectors": [],
     "fileTypeVersion": 1,
     "simplify": false,
-    "unitsIndex": 0,
+    "unitsIndex": "1",
     "filetypeVersion": 1,
     "circleSegmentSize": 2
 }
